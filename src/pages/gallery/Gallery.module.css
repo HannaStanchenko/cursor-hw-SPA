@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.img-wrapper {
+    width: calc(100%/3 - 20px);
+    height: calc(100%/3 - 20px);
+    overflow: hidden;
+    margin: 10px;
+}
+
+.main img {
+    width: 100%;
+}

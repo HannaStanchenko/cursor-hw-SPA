@@ -1,0 +1,38 @@
+.contact-wrapper {
+    height: 100%;
+}
+
+.contact-wrapper-card {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.contact-wrapper-card .info {
+    padding-left: 40px;
+    width: 50%;
+    font-size: 25px;
+}
+
+.contact-wrapper-card .info h4 {
+    font-size: 50px;
+    color: rgb(78, 0, 131);
+    text-shadow: rgb(134, 96, 159) 0 0 15px;
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+}
+
+.contact-wrapper-card .photo {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contact-wrapper-card .photo img {
+    width: 500px;
+}

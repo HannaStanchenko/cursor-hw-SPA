@@ -1,0 +1,21 @@
+.App {
+  height: 100%;
+  text-align: center;
+}
+
+header {
+  height: 10%;
+  background-image: url(./images/stars.webp);
+  background-size: contain;
+}
+
+main {
+  height: 85%;
+  background-color: rgb(11 6 16);
+  color: white;
+  overflow-y: scroll; 
+}
+
+footer {
+  height: 5%;
+}

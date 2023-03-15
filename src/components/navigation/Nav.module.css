@@ -1,0 +1,30 @@
+.nav-bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    overflow: hidden;
+}
+
+.nav-bar .logo {
+    width: 20%;
+}
+
+.nav-bar .links {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-bar a {
+    height: 37px;
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+    font-size: 25px;
+    transition: all 0.3s;
+}
+
+.nav-bar a:hover {
+    scale: 1.1;
+    text-shadow: rgb(201, 180, 219) 0px 0px 5px;
+}

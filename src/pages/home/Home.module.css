@@ -1,0 +1,17 @@
+.main {
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main img {
+    width: 20%;
+    margin-left: 100px;
+    width: 450px;
+}
+.main h1 {
+    width: 80%;
+    font-family: 'Kanit', sans-serif;
+    font-size: 55px;
+}
